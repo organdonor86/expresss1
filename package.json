@@ -4,7 +4,8 @@
   "description": "This repo features an express app to serve as demo in the Express Basics course on Treehouse.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
