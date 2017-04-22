@@ -1,0 +1,26 @@
+Both installed globally
+
+nodemon - restarts server when change is made:
+
+cmd - nodemon src/app
+
+
+
+
+
+cmd: node-debug src/app - (nodemon won't restart server if you run it like this though)
+
+do:
+
+// run app through nodemon in debug mode
+1. cmd: nodemon --inspect src/app
+
+
+
+
+
+///////////////////
+
+express generator - installed globally
+
+cmd: express *APP NAME* - will create a folder with package.json file
