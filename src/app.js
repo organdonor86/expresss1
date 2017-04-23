@@ -6,6 +6,7 @@
 const express = require('express');
 const posts = require('./mock/posts.json')
 
+let port = process.env.PORT || 8000;
 // Common JS pattern for converting objects into arrays:
 const postsLists = Object.keys(posts).map((value) => {
 	return posts[value]
@@ -75,7 +76,7 @@ app.get('/posts', (req, res) => {
 })
 
 // Port to listen on for HTTP requests / serve application on
-app.listen(3000, () => {
+app.listen(port, () => {
 	// Logs success running server
-	console.log('Frontend now running on port 3000...')
+	console.log(`Frontend now running on port ${port}` )
 });
